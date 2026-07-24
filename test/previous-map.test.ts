@@ -313,6 +313,21 @@ test('does not load map from outside the from folder', () => {
   type(input?.map, 'undefined')
 })
 
+test('does not load relative map without from', () => {
+  let cwd = join(dir, 'subdir')
+  mkdirSync(dir)
+  mkdirSync(cwd)
+  writeFileSync(join(cwd, 'previous.map'), map)
+  let previousCwd = process.cwd()
+  try {
+    process.chdir(cwd)
+    let input = parse('a{}\n/*# sourceMappingURL=previous.map */').source?.input
+    type(input?.map, 'undefined')
+  } finally {
+    process.chdir(previousCwd)
+  }
+})
+
 test('loads map from outside the from folder with unsafeMap', () => {
   let from = join(dir, 'subdir', 'a.css')
   mkdirSync(dir)
