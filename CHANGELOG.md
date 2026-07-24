@@ -2,6 +2,10 @@
 
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## 8.5.23
+
+- Do not load source map without `opts.from` for security reasons.
+
 ## 8.5.22
 
 - Fixed custom property losing semicolon before a comment (by @sarathfrancis90).
