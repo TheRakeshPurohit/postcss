@@ -42,22 +42,6 @@ PostCSS needs your support. We are accepting donations at
 Review, prioritize, understand & secure your PRs.   let me know if this text is good</i>
 </div>
 
-<br>
-<br>
-<div align="center">
-<a href="https://www.atlascloud.ai/?utm_source=github&utm_medium=link&utm_campaign=postcss">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/fa6789d3-12be-41b9-9d63-9c257bd1a9d7">
-    <img src="https://www.atlascloud.ai/logo.svg"
-       alt="Sponsored by Atlas Cloud" width="300" height="48">
-  </picture>
-</a>
-</div>
-
-<i><a href="https://www.atlascloud.ai/?utm_source=github&utm_medium=link&utm_campaign=postcss">Atlas Cloud</a> is a full-modal AI inference platform that gives developers a single AI API to access video generation, image generation, and LLM APIs. Instead of managing multiple vendor integrations, you connect once and get unified access to 300+ curated models across all modalities.
-
-Check out Atlas Cloud's <a href="https://www.atlascloud.ai/console/coding-plan?utm_source=github&utm_medium=link&utm_campaign=postcss">new coding plan promotion</a> for more budget-friendly API access.</i>
-
 ## Plugins
 
 PostCSS takes a CSS file and provides an API to analyze and modify its rules
